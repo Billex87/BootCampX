@@ -1,0 +1,14 @@
+-Make sure you are in a sql session
+-execute sql from, the BootcampX directory
+-Make sure you are using the bootcampx database \c bootcampx
+-Execute the query with the following command(example here)
+\i 0_selects/1_students_without_github.sql
+
+**You will have to enter \c bootcampx every time you enter a new sql session to make sure that you’re using the correct database
+-type \q to leave the command-line shell
+*Remember to make a new file for each individual query
+TO RUN
+Go to bootcampX folder
+Psql
+\c bootcampx
+\i directoryname/filename.sql
